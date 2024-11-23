@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Data Analytics Portfolio</title>
+    <link rel="icon" href="static/img/logo/title_logo.png" type="image/png">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="static/img/logo/title_logo.png" alt="Logo">
+            </div>
+            <div class="header-center">
+                <h1 class="pulsing-text">DATA ANALYTICS</h1>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="Accomplishment.html">Accomplishments</a></li>
+                <li><a href="#aboutme">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <video autoplay loop muted playsinline id="background-video">
+            <source src="static/img/background/bg4.mp4" type="video/mp4">
+            
+        </video>
+    
+        <div class="catchphrase" id="catchphrase" onclick="nextText()">
+            <span id="fullText" class="phraseText">
+                The <span class="highlight">BEST</span> way to
+                <p><span class="highlight">PREDICT</span> a <span class="highlight">FUTURE</span> is to </p>
+                <p><span class="highlight">CREATE</span> it.</p>
+            </span>
+            <div class="nameText hide" id="nameText" onclick="nextText()">
+                My Name is Kenneth Cueto
+            </div>
+        </div>
+        <div class="download-section">
+            <button id="downloadCV">Download CV</button>
+        </div>
+    </main>
+    
+    
+    <footer>
+        <div class="footer-content">
+            <div class="about"></div>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/kenneth-cueto-7776702b6" target="_blank">LinkedIn</a>
+                <a href="mailto:cuetokenneth31@gmail.com">Gmail</a>
+                <a href="https://www.credly.com/users/kenneth-cueto.89f47e64">Credly</a>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
